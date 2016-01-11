@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+section {
+	min-height: 100vh;
+	height: auto;
+	background: #FFF;
+}
+
+#home {
+	background-color: #222;
+	background-image: url("img/fallout-4-concept-art-render-synth-generation.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: auto;
+	background-position: left top;
+}
+
+#works .container {
+	height: 40vh;
+	width: 20%;
+	background-image: url("img/place-holder-1.jpg");
+	background-repeat: no-repeat;
+	background-size: hero;
+	background-attachment: auto;
+	background-position: left top;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#works .w2 {
+	background-image: url("img/place-holder-2.jpg");
+}
+
+#works .col-sm-6, #works .col-md-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
