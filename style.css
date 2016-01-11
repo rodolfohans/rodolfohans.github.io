@@ -14,9 +14,9 @@ section {
 
 #home {
 	background-color: #222;
-	background-image: url("img/fallout-4-concept-art-render-synth-generation.jpg");
+	background-image: url("img/home-bg-1.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: auto;
 	background-position: left top;
 }
