@@ -24,7 +24,6 @@ section {
 #works .container {
 	height: 40vh;
 	width: 20%;
-	background-image: url("img/place-holder-1.jpg");
 	background-repeat: no-repeat;
 	background-size: hero;
 	background-attachment: auto;
@@ -33,8 +32,36 @@ section {
 	vertical-align: bottom;
 }
 
-#works .w2 {
-	background-image: url("img/place-holder-2.jpg");
+#works .thumb-1 {
+	background-image: url("img/work-thumb-1-1.jpg");
+}
+
+#works .thumb-2 {
+	background-image: url("img/work-thumb-2-1.jpg");
+}
+
+#works .thumb-3 {
+	background-image: url("img/work-thumb-3-1.jpg");
+}
+
+#works .thumb-4 {
+	background-image: url("img/work-thumb-4-1.jpg");
+}
+
+#works .thumb-5 {
+	background-image: url("img/work-thumb-5-1.jpg");
+}
+
+#works .thumb-6 {
+	background-image: url("img/work-thumb-6-1.jpg");
+}
+
+#works .thumb-7 {
+	background-image: url("img/work-thumb-7-1.jpg");
+}
+
+#works .thumb-8 {
+	background-image: url("img/work-thumb-8-1.jpg");
 }
 
 #works .col-sm-6, #works .col-md-3 {
