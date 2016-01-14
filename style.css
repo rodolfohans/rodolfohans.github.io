@@ -10,6 +10,8 @@ section {
 	min-height: 100vh;
 	height: auto;
 	background: #FFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #home {
