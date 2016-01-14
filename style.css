@@ -24,11 +24,12 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: auto;
-	background-position: left top;
+	background-position: center top;
 }
 
 #home .container {
 	height: 70vh;
+	padding-left: 20vh;
 	display: table-cell;
 	vertical-align: bottom;
 }
