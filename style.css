@@ -19,8 +19,10 @@ section {
 }
 
 #home {
+	padding-top: 0px;
+	padding-bottom: 0px;
 	background-color: #222;
-	background-image: url("img/home-bg-1.jpg");
+	background-image: linear-gradient(to right top, rgb(52, 179, 160), rgb(32, 64, 86));
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: auto;
@@ -29,9 +31,18 @@ section {
 
 #home .container {
 	height: 70vh;
-	padding-left: 20vh;
 	display: table-cell;
 	vertical-align: bottom;
+}
+
+#portrait {
+	height: 100vh;
+	background-color: #222;
+	background-image: url("img/home-bg-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: auto;
+	background-position: center center;
 }
 
 #works .container {
