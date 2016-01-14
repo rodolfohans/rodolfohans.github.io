@@ -14,6 +14,10 @@ section {
 	padding-bottom: 30px;
 }
 
+.text-inverse {
+	color: #FFF;
+}
+
 #home {
 	background-color: #222;
 	background-image: url("img/home-bg-1.jpg");
@@ -21,6 +25,12 @@ section {
 	background-size: cover;
 	background-attachment: auto;
 	background-position: left top;
+}
+
+#home .container {
+	height: 70vh;
+	display: table-cell;
+	vertical-align: bottom;
 }
 
 #works .container {
