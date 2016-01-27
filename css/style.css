@@ -213,8 +213,8 @@ h1, h2, h3, h4, h5, h6 {
 .profile {
 	background: url('../images/rod-profile-pic.jpg') no-repeat center;
 	background-size: 100% 100%;
-	width: 20vw;
-    height: 20vw;
+	width: 40vh;
+    height: 40vh;
     margin: 0 auto;
     margin-bottom: 20px;
     position: relative;
