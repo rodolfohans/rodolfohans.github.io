@@ -114,8 +114,8 @@ header li {
 
 .burger {
 	position: relative;
-	height: 1.8em;
-	width: 1.8em;
+	height: 1.2em;
+	width: 1.2em;
 	cursor: pointer;
 	-webkit-transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
@@ -127,9 +127,9 @@ header li {
 
 .burger span {
 	position: relative;
-	margin-top: 0.4em;
-	height: 0.2em;
-	width: 1.8em;
+	margin-bottom: 0.3em;
+	height: 0.1em;
+	width: 1.2em;
 	background-color: #878787;
 	float: left;
 }
@@ -253,8 +253,9 @@ footer {
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
 	h2 {
 		font-size: 1.2em;
+		font-weight: 700;
 	}
 }
