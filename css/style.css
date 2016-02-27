@@ -122,12 +122,11 @@ header li {
 	-o-transition: opacity .25s ease;
 	-ms-transition: opacity .25s ease;
 	transition: opacity .25s ease;
-	background-color: #DDD;
 }
 
 .burger span {
 	position: relative;
-	margin-bottom: 0.3em;
+	margin-top: 0.3em;
 	height: 0.1em;
 	width: 1.2em;
 	background-color: #878787;
@@ -257,5 +256,13 @@ footer {
 	h2 {
 		font-size: 1.2em;
 		font-weight: 700;
+	}
+}
+
+@media (max-width: 360px) {
+	.container-3-2 {
+		flex: 0 0 100vw;
+		-webkit-flex: 0 0 100vw;
+		height: 100vw;
 	}
 }
