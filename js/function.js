@@ -21,10 +21,10 @@ function smoth_scroll() {
 function header_position() {
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1){
-			document.getElementById("p2").style.position="fixed";
+			document.getElementById("header").style.position="fixed";
 		}
 		else {
-			document.getElementById("p2").style.position="absolute";
+			document.getElementById("header").style.position="absolute";
 		}
 	});
 }
