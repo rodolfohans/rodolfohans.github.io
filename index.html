@@ -8,22 +8,31 @@
 		<title>Rodolfo Hans - Designer Gráfico</title>
 
 		<link rel="stylesheet" href="css/style.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 
 	<body>
 
 		<!-- Cabeçalho -->
-		<header>
+		<header id="p2">
 			<div class="pull-left">
 				<h2>Rodolfo Hans</h2>
 			</div>
 			<div class="pull-right">
 				<nav>
-					<ul>
+					<!-- Mobile -->
+					<div type="button" id="burger-toggle" class="burger">
+						<span class="top"></span>
+						<span class="middle"></span>
+						<span class="botton"></span>
+					</div>
+					<!-- Full -->
+					<!--<ul>
 						<li><a href="#start">Trabalhos</a></li>
 						<li><a href="#infos">Sobre min</a></li>
 						<li><a href="#contact">Contato</a></li>
-					</ul>
+					</ul>-->
 				</nav>
 			</div>
 		</header>
@@ -181,5 +190,6 @@
 			</div>
 		</footer>
 
+		<script src="js/function.js"></script>
 	</body>	
 </html>
