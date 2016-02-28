@@ -16,7 +16,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
 
 /* --- 02. Reset do CSS --- */
-html, body, div, nav, header, section, footer, h1, h2, p, span, small, ul, li, a {
+html, body, div, nav, header, section, footer, h1, h2, p, span, small, ul, li, a, a:hover {
 	margin: 0;
 	border: 0;
 	padding: 0;
@@ -84,7 +84,7 @@ small, li {
 }
 
 a:hover {
-	text-decoration: underline;
+	color: #1a7f8a;
 }
 
 /* --- 04. Cabeçalho --- */
@@ -255,11 +255,16 @@ header li {
 	animation-delay: .55s;
 }
 
+.navigation.open li:nth-of-type(4) {
+	-webkit-animation-delay: .65s;
+	-moz-animation-delay: .65s;
+	animation-delay: .65s;
+}
+
 .navigation ul {
 	position: relative;
-	padding: 20vh 40px;
+	padding: 10vh 20px;
 	display: inline-block;
-	height: 60vh;
 }
 
 .navigation ul li {
@@ -278,11 +283,11 @@ header li {
 }
 
 .navigation ul li a:hover {
-	color: #fff;
+	color: #1a7f8a;
 }
 
 /* --- 05. Trabalhos --- */
-.container-3-2 {
+.container-work {
 	position: relative;
 	background-color: #EEE; 
 	overflow: hidden;
@@ -315,12 +320,12 @@ header li {
 	visibility: hidden;
 }
 
-.container-3-2:hover .work-cap-container {
+.container-work:hover .work-cap-container {
 	background-color: rgba(0,0,0,0.5);
 	visibility: visible;
 }
 
-.container-3-2:hover .work-thumbnail img {
+.container-work:hover .work-thumbnail img {
 	-webkit-filter: blur(7px);
 	-moz-filter: blur(7px);
 	-o-filter: blur(7px);
@@ -341,10 +346,10 @@ header li {
 #works a, #works h1 {
 	text-decoration: none;
 	color: #FFF;
-	/*-webkit-hyphens: auto;
+	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
-	hyphens: auto;*/
+	hyphens: auto;
 }
 
 /* --- 06. Informações --- */
@@ -352,7 +357,7 @@ header li {
 	min-height: 100vh;
 }
 
-.container-3-1 {
+.container-info {
 	padding: 7.8em 40px 1.3em;
 }
 
@@ -377,12 +382,12 @@ footer {
 
 /* --- 08. Responsividade --- */
 @media (min-width: 768px) {
-	.container-3-2 {
+	.container-work {
 		flex: 0 0 33.33vw;
 		-webkit-flex: 0 0 33.33vw;
 		height: 33.33vw;
 	}
-	.container-3-1 {
+	.container-info {
 		flex: 0 0 33.33vw;
 		-webkit-flex: 0 0 33.33vw;
 	}
@@ -392,12 +397,12 @@ footer {
 }
 
 @media (max-width: 767px) {
-	.container-3-2 {
+	.container-work {
 		flex: 0 0 50vw;
 		-webkit-flex: 0 0 50vw;
 		height: 50vw;
 	}
-	.container-3-1 {
+	.container-info {
 		flex: 0 0 100vw;
 		-webkit-flex: 0 0 100vw;
 	}
@@ -411,12 +416,16 @@ footer {
 		font-size: 1.2em;
 		font-weight: 700;
 	}
-}
-
-@media (max-width: 360px) {
-	.container-3-2 {
+	.container-work {
 		flex: 0 0 100vw;
 		-webkit-flex: 0 0 100vw;
 		height: 100vw;
+	}
+	header, .container-info, footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.work-cap-container .work-cap {
+		padding: 20px;
 	}
 }
