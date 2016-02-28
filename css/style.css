@@ -107,13 +107,15 @@ header ul {
 }
 
 header li {
-	padding-left: 5em;
+	padding-left: 60px;
 	display: inline;
 	font: 700 1em 'Quicksand', sans-serif;
 }
 
 .burger {
 	position: relative;
+	z-index: 5;
+	padding-top: 0.1em;
 	height: 1.2em;
 	width: 1.2em;
 	cursor: pointer;
@@ -131,6 +133,152 @@ header li {
 	width: 1.2em;
 	background-color: #878787;
 	float: left;
+	-webkit-transition: all .35s ease;
+	-moz-transition: all .35s ease;
+	-o-transition: all .35s ease;
+	-ms-transition: all .35s ease;
+	transition: all .35s ease;	
+}
+
+.burger.active .top {
+	background-color: #FFF;
+	-webkit-transform: translateY(0.3em) translateX(0) rotate(45deg);
+	-ms-transform: translateY(0.3em) translateX(0) rotate(45deg);
+	transform: translateY(0.3em) translateX(0) rotate(45deg);
+}
+
+.burger.active .middle {
+  opacity: 0;
+}
+
+.burger.active .bottom {
+	background-color: #FFF;
+	-webkit-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
+	-ms-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
+	transform: translateY(-0.45em) translateX(0) rotate(-45deg);
+}
+
+.body-hidden {
+	overflow: hidden;
+}
+
+.navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	visibility: hidden;
+	-webkit-transition: visibility .35s, width .35s;
+	-moz-transition: visibility .35s, width .35s;
+	-o-transition: visibility .35s, width .35s;
+	-ms-transition: visibility .35s, width .35s;
+	transition: visibility .35s, width .35s;		  
+	z-index: 4;
+}
+
+.navigation:before {
+	position: absolute;
+	top: -100vh;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	content: '';
+	background-color: #50cbd8;
+	-webkit-transition: top .35s ease;
+	-moz-transition: top .35s ease;
+	-o-transition: top .35s ease;
+	-ms-transition: top .35s ease;
+	transition: top .35s ease;	
+}
+
+.navigation.open, .navigation.close {
+	visibility: visible;
+	height: 100vh;
+}
+
+.navigation.open:before, .navigation.close:before {
+	top: 0;
+}
+
+.navigation.open li {
+	-webkit-animation: fadeInTop .5s ease forwards;
+	-moz-animation: fadeInTop .5s ease forwards;
+	animation: fadeInTop .5s ease forwards;
+	-webkit-animation-delay: .35s;
+	-moz-animation-delay: .35s;
+	animation-delay: .35s;
+}
+
+@-webkit-keyframes fadeInTop {
+  0% {
+	opacity: 0;
+	top: -20%;
+  }
+  100% {
+	opacity: 1;
+	top: 0;
+  }
+}
+
+@-moz-keyframes fadeInTop {
+  0% {
+	opacity: 0;
+	top: -20%;
+  }
+  100% {
+	opacity: 1;
+	top: 0;
+  }
+}
+
+@-ms-keyframes fadeInTop {
+  0% {
+	opacity: 0;
+	top: -20%;
+  }
+  100% {
+	opacity: 1;
+	top: 0;
+  }
+}
+
+.navigation.open li:nth-of-type(2) {
+	-webkit-animation-delay: .45s;
+	-moz-animation-delay: .45s;
+	animation-delay: .45s;
+}
+
+.navigation.open li:nth-of-type(3) {
+	-webkit-animation-delay: .55s;
+	-moz-animation-delay: .55s;
+	animation-delay: .55s;
+}
+
+.navigation ul {
+	position: relative;
+	padding: 20vh 40px;
+	display: inline-block;
+	height: 60vh;
+}
+
+.navigation ul li {
+	display: block;
+	padding-left: 0;
+	position: relative;
+	opacity: 0;
+	height: 20vh;
+	line-height: 20vh;
+}
+
+.navigation ul li a {
+	font: 300 2.3em 'Quicksand', sans-serif;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+
+.navigation ul li a:hover {
+	color: #fff;
 }
 
 /* --- 05. Trabalhos --- */
@@ -238,6 +386,9 @@ footer {
 		flex: 0 0 33.33vw;
 		-webkit-flex: 0 0 33.33vw;
 	}
+	.burger {
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
@@ -249,6 +400,9 @@ footer {
 	.container-3-1 {
 		flex: 0 0 100vw;
 		-webkit-flex: 0 0 100vw;
+	}
+	.nav-full {
+		display: none;
 	}
 }
 

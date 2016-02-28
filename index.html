@@ -12,7 +12,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 
-	<body>
+	<body id="body">
 
 		<!-- Cabeçalho -->
 		<header id="header">
@@ -20,20 +20,31 @@
 				<h2>Rodolfo Hans</h2>
 			</div>
 			<div class="pull-right">
-				<nav>
-					<!-- Mobile -->
-					<div type="button" id="burger-toggle" class="burger">
-						<span class="top"></span>
-						<span class="middle"></span>
-						<span class="botton"></span>
-					</div>
-					<!-- Full -->
-					<!--<ul>
-						<li><a href="#start">Trabalhos</a></li>
-						<li><a href="#infos">Sobre min</a></li>
-						<li><a href="#contact">Contato</a></li>
-					</ul>-->
-				</nav>
+				<!-- Navegação Mobile -->
+				<div type="button" id="burger-toggle" class="burger">
+					<span class="top"></span>
+					<span class="middle"></span>
+					<span class="bottom"></span>
+				</div>
+				<div class="navigation" id="navigation">
+					<nav>
+						<ul>
+							<li><a href="#start" class="nav-select">Trabalhos</a></li>
+							<li><a href="#infos" class="nav-select">Sobre min</a></li>
+							<li><a href="#contact" class="nav-select">Contato</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- Navegaçao Fullscreen -->
+				<div class="nav-full">
+					<nav>
+						<ul>
+							<li><a href="#start">Trabalhos</a></li>
+							<li><a href="#infos">Sobre min</a></li>
+							<li><a href="#contact">Contato</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
 
