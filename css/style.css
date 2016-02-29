@@ -162,7 +162,7 @@ header li {
 	overflow: hidden;
 }
 
-.navigation {
+.nav-mobile {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -177,7 +177,7 @@ header li {
 	z-index: 4;
 }
 
-.navigation:before {
+.nav-mobile:before {
 	position: absolute;
 	top: -100vh;
 	left: 0;
@@ -192,16 +192,16 @@ header li {
 	transition: top .35s ease;	
 }
 
-.navigation.open, .navigation.close {
+.nav-mobile.open, .nav-mobile.close {
 	visibility: visible;
 	height: 100vh;
 }
 
-.navigation.open:before, .navigation.close:before {
+.nav-mobile.open:before, .nav-mobile.close:before {
 	top: 0;
 }
 
-.navigation.open li {
+.nav-mobile.open li {
 	-webkit-animation: fadeInTop .5s ease forwards;
 	-moz-animation: fadeInTop .5s ease forwards;
 	animation: fadeInTop .5s ease forwards;
@@ -243,31 +243,31 @@ header li {
   }
 }
 
-.navigation.open li:nth-of-type(2) {
+.nav-mobile.open li:nth-of-type(2) {
 	-webkit-animation-delay: .45s;
 	-moz-animation-delay: .45s;
 	animation-delay: .45s;
 }
 
-.navigation.open li:nth-of-type(3) {
+.nav-mobile.open li:nth-of-type(3) {
 	-webkit-animation-delay: .55s;
 	-moz-animation-delay: .55s;
 	animation-delay: .55s;
 }
 
-.navigation.open li:nth-of-type(4) {
+.nav-mobile.open li:nth-of-type(4) {
 	-webkit-animation-delay: .65s;
 	-moz-animation-delay: .65s;
 	animation-delay: .65s;
 }
 
-.navigation ul {
+.nav-mobile ul {
 	position: relative;
 	padding: 20px;
 	display: inline-block;
 }
 
-.navigation ul li {
+.nav-mobile ul li {
 	display: block;
 	padding-left: 0;
 	position: relative;
@@ -276,13 +276,13 @@ header li {
 	line-height: 20vh;
 }
 
-.navigation ul li a {
+.nav-mobile ul li a {
 	font: 300 2.3em 'Quicksand', sans-serif;
 	color: #FFF;
 	letter-spacing: 1px;
 }
 
-.navigation ul li a:hover {
+.nav-mobile ul li a:hover {
 	color: #1a7f8a;
 }
 
