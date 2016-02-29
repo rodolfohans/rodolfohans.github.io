@@ -23,11 +23,16 @@ function menu_mobile() {
 	$("#burger-toggle").click(function() {
 		$(this).toggleClass("active");
 		$("#body").toggleClass("body-hidden");
-		$("body").bind("touchmove", function(e){e.preventDefault()});
+		if ($(this).hasClass("active")) {
+			$("#body").unbind("touchmove");
+		}
+		else {
+			$("body").bind("touchmove", function(e){e.preventDefault()});
+		}
 		$("#nav-mobile").toggleClass("open");
 	});
 	$(".nav-select").click(function() {
-		$("body").unbind("touchmove");
+		$("#body").unbind("touchmove");
 		$("#body").removeClass("body-hidden");
 		$("#burger-toggle").removeClass("active");
 		$("#nav-mobile").removeClass("open");

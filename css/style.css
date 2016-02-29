@@ -272,8 +272,8 @@ header li {
 	padding-left: 0;
 	position: relative;
 	opacity: 0;
-	height: 20vh;
-	line-height: 20vh;
+	height: 10vh;
+	line-height: 10vh;
 }
 
 .nav-mobile ul li a {
