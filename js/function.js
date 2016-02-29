@@ -23,7 +23,7 @@ function menu_mobile() {
 	$("#burger-toggle").click(function() {
 		$(this).toggleClass("active");
 		$("#body").toggleClass("body-hidden");
-		$("body").bind("touchmove", function(e){e.preventDefault()})
+		$("body").bind("touchmove", function(e){e.preventDefault()});
 		$("#nav-mobile").toggleClass("open");
 	});
 	$(".nav-select").click(function() {
