@@ -24,10 +24,10 @@ function menu_mobile() {
 		$(this).toggleClass("active");
 		$("#body").toggleClass("body-hidden");
 		if ($(this).hasClass("active")) {
-			$("#body").unbind("touchmove");
+			$("body").bind("touchmove", function(e){e.preventDefault()});
 		}
 		else {
-			$("body").bind("touchmove", function(e){e.preventDefault()});
+			$("#body").unbind("touchmove");
 		}
 		$("#nav-mobile").toggleClass("open");
 	});
