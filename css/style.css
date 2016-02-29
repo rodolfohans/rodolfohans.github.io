@@ -263,7 +263,7 @@ header li {
 
 .navigation ul {
 	position: relative;
-	padding: 10vh 20px;
+	padding: 20px;
 	display: inline-block;
 }
 
@@ -346,10 +346,10 @@ header li {
 #works a, #works h1 {
 	text-decoration: none;
 	color: #FFF;
-	-webkit-hyphens: auto;
+	/*-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
-	hyphens: auto;
+	hyphens: auto;*/
 }
 
 /* --- 06. Informações --- */
