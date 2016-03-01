@@ -58,6 +58,10 @@ body {
 	-webkit-align-content: space-between;
 }
 
+.container-3-1, .container-2-1, .container-1-1 {
+	padding: 7.8em 40px 1.3em;
+}
+
 .pull-left {
 	float: left;
 }
@@ -93,7 +97,7 @@ header {
 	padding: 1.6em 40px;
 	z-index: 3;
 	width: 100vw;
-	background-color: rgba(255,255,255,0.95);;
+	background-color: rgba(255,255,255,0.95);
 }
 
 h2 {
@@ -357,10 +361,6 @@ header li {
 	min-height: 100vh;
 }
 
-.container-info {
-	padding: 7.8em 40px 1.3em;
-}
-
 .info-images {
 	width: 100%;
 	height: 250px;
@@ -387,9 +387,17 @@ footer {
 		-webkit-flex: 0 0 33.33vw;
 		height: 33.33vw;
 	}
-	.container-info {
+	.container-3-1 {
 		flex: 0 0 33.33vw;
 		-webkit-flex: 0 0 33.33vw;
+	}
+	.container-2-1 {
+		flex: 0 0 50vw;
+		-webkit-flex: 0 0 50vw;
+	}
+	.container-1-1 {
+		flex: 0 0 100vw;
+		-webkit-flex: 0 0 100vw;
 	}
 	.burger {
 		display: none;
@@ -402,7 +410,7 @@ footer {
 		-webkit-flex: 0 0 50vw;
 		height: 50vw;
 	}
-	.container-info {
+	.container-3-1, .container-2-1, .container-1-1 {
 		flex: 0 0 100vw;
 		-webkit-flex: 0 0 100vw;
 	}
@@ -421,7 +429,7 @@ footer {
 		-webkit-flex: 0 0 100vw;
 		height: 100vw;
 	}
-	header, .container-info, footer {
+	header, .container-3-1, .container-2-1, .container-1-1, footer {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
