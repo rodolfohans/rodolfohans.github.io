@@ -13,6 +13,7 @@
 /* --- 01. Fontes externas --- */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+@import url("../css/selecao-portfolio.css");
 
 /* --- 02. Reset do CSS --- */
 html, body, div, nav, header, section, footer, h1, h2, p, span, small, ul, li, a, a:hover {
@@ -120,9 +121,32 @@ header ul {
 }
 
 header li {
-	padding-left: 60px;
+	padding: 0 0 0 40px;
 	display: inline;
 	font: 700 1em 'Quicksand', sans-serif;
+}
+
+#language {
+	position: relative;
+	font-size: 1em;
+}
+
+#language span {
+	display: none;
+}
+
+#language:hover span {
+	position: absolute;
+	display: block;
+	top: 2em;
+	right: 0.2em;
+	padding: 0.5em;
+	width: 150px;
+	font: 400 0.75em 'Raleway', sans-serif;
+	color: #FFF;
+	background-color: #1a7f8a;
+	opacity: 0.7;
+	text-align: center;
 }
 
 .burger {
@@ -141,8 +165,8 @@ header li {
 
 .burger span {
 	position: relative;
-	margin-top: 0.3em;
-	height: 0.1em;
+	margin-top: 0.25em;
+	height: 0.12em;
 	width: 1.2em;
 	background-color: #878787;
 	float: left;
@@ -304,9 +328,15 @@ header li {
 	animation-delay: .65s;
 }
 
+.nav-mobile.open li:nth-of-type(5) {
+	-webkit-animation-delay: .75s;
+	-moz-animation-delay: .75s;
+	animation-delay: .75s;
+}
+
 .nav-mobile ul {
 	position: relative;
-	padding: 10vh 40px;
+	padding: 5vh 40px;
 	display: inline-block;
 }
 
@@ -327,6 +357,11 @@ header li {
 
 .nav-mobile ul li a:hover {
 	color: #1a7f8a;
+}
+
+#language-mobile {
+	height: 10vh;
+	font: 500 0.5em 'Quicksand', sans-serif;
 }
 
 /* --- 05. Trabalhos --- */
@@ -546,6 +581,9 @@ footer {
 	.nav-full {
 		display: none;
 	}
+	.side-slide {
+		height: auto;
+	}
 }
 
 @media (max-width: 420px) {
@@ -563,6 +601,6 @@ footer {
 		padding-right: 20px;
 	}
 	.work-cap-container .work-cap {
-		padding: 20px;
+		padding-bottom: 20px;
 	}
 }
