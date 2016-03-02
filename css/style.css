@@ -603,4 +603,7 @@ footer {
 	.work-cap-container .work-cap {
 		padding-bottom: 20px;
 	}
+	#language-footter {
+		display: none;
+	}
 }
