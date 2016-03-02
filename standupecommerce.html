@@ -7,10 +7,10 @@
 
 		<title>Rodolfo Hans - Designer Gráfico</title>
 
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="../css/style.css" />
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="js/function.js"></script>
+		<script src="../js/function.js"></script>
 	</head>
 
 	<body id="body">
@@ -18,7 +18,7 @@
 		<!-- Cabeçalho -->
 		<header id="header">
 			<div class="pull-left">
-				<a href="http://rodolfohans.github.io/#start"><h2>Rodolfo Hans</h2></a>
+				<a href="#start"><h2>Rodolfo Hans</h2></a>
 			</div>
 			<div class="pull-right">
 				<!-- Navegação Mobile -->
@@ -30,10 +30,11 @@
 				<div class="nav-mobile" id="nav-mobile">
 					<nav>
 						<ul>
-							<li><a href="http://rodolfohans.github.io/#start" class="nav-select">Trabalhos</a></li>
-							<li><a href="http://rodolfohans.github.io/#infos" class="nav-select">Sobre min</a></li>
-							<li><a href="http://rodolfohans.github.io/#services" class="nav-select">Especialidades</a></li>
-							<li><a href="http://rodolfohans.github.io/#contact" class="nav-select">Contato</a></li>
+							<li><a href="../index.html#start" class="nav-select">Trabalhos</a></li>
+							<li><a href="../#infos" class="nav-select">Sobre min</a></li>
+							<li><a href="../index.html#services" class="nav-select">Especialidades</a></li>
+							<li><a href="#contact" class="nav-select">Contato</a></li>
+							<li id="language-mobile"><a href="../en/index.html">English version</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -41,9 +42,13 @@
 				<div class="nav-full">
 					<nav>
 						<ul>
-							<li><a href="http://rodolfohans.github.io/#start">Trabalhos</a></li>
-							<li><a href="http://rodolfohans.github.io/#infos">Sobre min</a></li>
-							<li><a href="http://rodolfohans.github.io/#infos">Contato</a></li>
+							<li><a href="#start">Trabalhos</a></li>
+							<li><a href="#infos">Sobre min</a></li>
+							<li><a href="#infos">Contato</a></li>
+							<li id="language">
+								<a href="../en/index.html"><i class="icon-globe"></i></a>
+								<span>English version</span>
+							</li>
 						</ul>
 					</nav>
 				</div>
@@ -94,6 +99,11 @@
 						<img src="images/works/2/email-standup-ecommerce.png" alt="Email-marketing.">
 						<p class="cap">Email-marketing.</p>
 					</div>
+					<div class="container-100 behance-link">
+						<a href="https://www.behance.net/gallery/33052049/Stand-Up-eCommerce" target="_blank">
+							Clique aqui e de o seu like no Behance <i class="icon-heart-empty"></i>
+						</a>
+					</div>
 
 
 				</div> <!-- wrapper -->
@@ -106,7 +116,8 @@
 				<span>© 2016 RODOLFO HANS</span>
 			</div>
 			<div class="pull-right">
-				<span><a href="#start">retornar ao topo</a></span>
+				<span id="language-footter"><a href="../en/index.html"><i class="icon-globe"></i>english version</a>&nbsp; | </span>
+				<span><a href="#start"><i class="icon-angle-up"></i>retornar ao topo</a></span>
 			</div>
 		</footer>
 

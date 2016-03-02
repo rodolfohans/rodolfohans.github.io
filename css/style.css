@@ -535,6 +535,12 @@ header li {
 	}
 }
 
+.behance-link {
+	padding: 100px 0 40px;
+	font: 500 1.5em 'Quicksand', sans-serif;
+	text-align: center;
+}
+
 /* --- 08. Rodapé --- */
 footer {
 	padding: 0.5em 40px 1.5em;
