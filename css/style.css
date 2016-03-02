@@ -156,6 +156,8 @@ header li {
 .burger.active .top {
 	background-color: #FFF;
 	-webkit-transform: translateY(0.3em) translateX(0) rotate(45deg);
+	-moz-transform: translateY(0.3em) translateX(0) rotate(45deg);
+	-o-transform: translateY(0.3em) translateX(0) rotate(45deg);
 	-ms-transform: translateY(0.3em) translateX(0) rotate(45deg);
 	transform: translateY(0.3em) translateX(0) rotate(45deg);
 }
@@ -167,6 +169,8 @@ header li {
 .burger.active .bottom {
 	background-color: #FFF;
 	-webkit-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
+	-moz-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
+	-o-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
 	-ms-transform: translateY(-0.45em) translateX(0) rotate(-45deg);
 	transform: translateY(-0.45em) translateX(0) rotate(-45deg);
 }
@@ -217,9 +221,13 @@ header li {
 .nav-mobile.open li {
 	-webkit-animation: fadeInTop .5s ease forwards;
 	-moz-animation: fadeInTop .5s ease forwards;
+	-o-animation: fadeInTop .5s ease forwards;
+	-ms-animation: fadeInTop .5s ease forwards;
 	animation: fadeInTop .5s ease forwards;
 	-webkit-animation-delay: .35s;
 	-moz-animation-delay: .35s;
+	-o-animation-delay: .35s;
+	-ms-animation-delay: .35s;
 	animation-delay: .35s;
 }
 
@@ -245,7 +253,29 @@ header li {
   }
 }
 
+@-0-keyframes fadeInTop {
+  0% {
+	opacity: 0;
+	top: -20%;
+  }
+  100% {
+	opacity: 1;
+	top: 0;
+  }
+}
+
 @-ms-keyframes fadeInTop {
+  0% {
+	opacity: 0;
+	top: -20%;
+  }
+  100% {
+	opacity: 1;
+	top: 0;
+  }
+}
+
+@keyframes fadeInTop {
   0% {
 	opacity: 0;
 	top: -20%;
@@ -401,6 +431,73 @@ header li {
 	width: 100%;
 	text-align: center;
 	font-size: 0.75em;
+}
+
+.slide-container {
+	position: relative;
+	margin-top: 40px;
+	overflow: hidden;
+	height: 80vh;
+	background-position: top;
+}
+
+.side-slide {
+	height: 80vh;
+}
+
+#slide-2-1 {
+	background: url("../images/works/2/hotsite-standup-ecommerce.jpg");
+	background-size: cover;
+	-webkit-animation: slide-image 60s 2s ease forwards infinite;
+	-moz-animation: slide-image 60s 2s ease forwards infinite;
+	-o-animation: slide-image 60s 2s ease forwards infinite;
+	-ms-animation: slide-image 60s 2s ease forwards infinite;
+	animation: slide-image 60s 2s ease forwards infinite;
+}
+
+@-webkit-keyframes slide-image {
+	0%, 100% {
+		background-position: top;
+	}
+	50% {
+		background-position: bottom;
+	}
+}
+
+@-moz-keyframes slide-image {
+	0%, 100% {
+		background-position: top;
+	}
+	50% {
+		background-position: bottom;
+	}
+}
+
+@-o-keyframes slide-image {
+	0%, 100% {
+		background-position: top;
+	}
+	50% {
+		background-position: bottom;
+	}
+}
+
+@-ms-keyframes slide-image {
+	0%, 100% {
+		background-position: top;
+	}
+	50% {
+		background-position: bottom;
+	}
+}
+
+@keyframes slide-image {
+	0%, 100% {
+		background-position: top;
+	}
+	50% {
+		background-position: bottom;
+	}
 }
 
 /* --- 08. Rodapé --- */
