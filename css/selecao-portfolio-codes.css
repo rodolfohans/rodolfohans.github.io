@@ -2,4 +2,12 @@
 .icon-globe:before { content: '\e800'; } /* '' */
 .icon-link:before { content: '\e801'; } /* '' */
 .icon-angle-up:before { content: '\e802'; } /* '' */
-.icon-heart-empty:before { content: '\e803'; } /* '' */
+.icon-behance:before { content: '\e803'; } /* '' */
+.icon-thumbs-up-1:before { content: '\e804'; } /* '' */
+.icon-linkedin:before { content: '\e805'; } /* '' */
+.icon-facebook:before { content: '\e806'; } /* '' */
+.icon-twitter:before { content: '\e807'; } /* '' */
+.icon-skype:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
+.icon-mobile:before { content: '\e80a'; } /* '' */
+.icon-location:before { content: '\e80b'; } /* '' */
