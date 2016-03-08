@@ -458,10 +458,6 @@ header li {
 	height: 100%;
 }
 
-.force-unpadded, .sub-page img .force-unpadded {
-	padding-top: 0px;
-}
-
 .image-padded {
 	padding: 0 40px;
 }
@@ -558,8 +554,8 @@ footer {
 		height: 33.33vw;
 	}
 	.container-work, .container-33 {
-		flex: 0 0 33.33vw;
-		-webkit-flex: 0 0 33.33vw;
+		flex: 0 0 33.33%;
+		-webkit-flex: 0 0 33.33%;
 	}
 	.container-50 {
 		flex: 0 0 50vw;
