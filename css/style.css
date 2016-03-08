@@ -456,6 +456,11 @@ header li {
 	padding-top: 40px;
 	width: 100%;
 	height: 100%;
+	display: block;
+}
+
+.section-gap {
+	padding-bottom: 80px;
 }
 
 .image-padded {
