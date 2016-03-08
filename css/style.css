@@ -458,6 +458,10 @@ header li {
 	height: 100%;
 }
 
+.force-unpadded {
+	padding: 0px;
+}
+
 .image-padded {
 	padding: 0 40px;
 }
