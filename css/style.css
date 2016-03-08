@@ -458,8 +458,8 @@ header li {
 	height: 100%;
 }
 
-.force-unpadded {
-	padding: 0px;
+.force-unpadded, .sub-page img .force-unpadded {
+	padding-top: 0px;
 }
 
 .image-padded {
