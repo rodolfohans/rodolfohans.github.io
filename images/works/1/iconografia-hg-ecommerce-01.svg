@@ -31,10 +31,9 @@
 		s6.3,3.7,15.2,8.7c0.2,0.1,0.5,0.2,0.5,0.9c0,0.7,0,1,0,1H-16.2z M0,2.1l-11.4,6.6h22.8L0,2.1z"/>
 	<polygon fill="#FFFFFF" points="-16.2,-10.8 16.2,-10.8 16.2,6.8 14.2,5.7 14.2,-8.7 -14.2,-8.7 -14.2,5.7 -16.2,6.8 	"/>
 </symbol>
-<use xlink:href="#box-cor-1"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 83.3333 83.3333)" overflow="visible"/>
+<use xlink:href="#box-cor-1"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(11.7632 0 0 -3.9198 249.9167 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-letra-H-branco"  width="24.7" height="28.3" x="-12.4" y="-14.2" transform="matrix(3.9198 0 0 -3.9198 83.3349 83.3333)" overflow="visible"/>
 <use xlink:href="#box-cor-2"  width="42.5" height="42.5" id="XMLID_2_" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 250 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-letra-G-branco"  width="26.8" height="30.4" x="-13.4" y="-15.2" transform="matrix(3.9198 0 0 -3.9198 247.3111 83.3333)" overflow="visible"/>
-<use xlink:href="#box-cor-1"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 416.6667 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-mail-branco"  width="32.5" height="21.5" x="-16.2" y="-10.8" transform="matrix(3.9198 0 0 -3.9198 416.6667 83.3333)" overflow="visible"/>
 </svg>

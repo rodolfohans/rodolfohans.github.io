@@ -37,10 +37,9 @@
 		c0.1,0,0.2,0,0.4,0l3.9-11.6c0,0-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1L5.3,0.2c0,0.3,0.1,0.5,0.1,0.8C5.4,2.5,4.8,3.8,3.9,4.7z
 		 M13.6-4.7c-0.5,0-0.9,0.4-0.9,0.9c0,0.5,0.4,0.9,0.9,0.9c0.5,0,0.9-0.4,0.9-0.9C14.4-4.3,14-4.7,13.6-4.7z"/>
 </symbol>
-<use xlink:href="#box-cor-4"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 83.3333 83.3333)" overflow="visible"/>
+<use xlink:href="#box-cor-4"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(11.7595 0 0 -3.9198 250.0052 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-lupa-branco"  width="24.6" height="24.6" x="-12.3" y="-12.3" transform="matrix(3.9198 0 0 -3.9198 79.9341 80.0106)" overflow="visible"/>
 <use xlink:href="#box-cor-3"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 250 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-link-branco"  width="24.7" height="24.7" x="-12.3" y="-12.3" transform="matrix(3.9198 0 0 -3.9198 250.0039 83.3333)" overflow="visible"/>
-<use xlink:href="#box-cor-4"  width="42.5" height="42.5" x="-21.3" y="-21.3" transform="matrix(3.9198 0 0 -3.9198 416.6667 83.3333)" overflow="visible"/>
 <use xlink:href="#icone-redes-branco"  width="32.5" height="30.4" x="-16.2" y="-15.2" transform="matrix(3.9198 0 0 -3.9198 416.6667 87.4099)" overflow="visible"/>
 </svg>
