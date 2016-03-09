@@ -1,7 +1,7 @@
 $(document).ready(function inicio() {
 	smoth_scroll();
-	header_position();
 	menu_mobile();
+	header_position();
 });
 
 function smoth_scroll() {
@@ -48,4 +48,8 @@ function header_position() {
 			document.getElementById("header").style.position="absolute";
 		}
 	});
+}
+
+function comparison_slider(x,y) {
+	document.getElementById(x).style.width = document.getElementById(y).value+"%";								
 }
