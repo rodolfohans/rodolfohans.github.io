@@ -55,8 +55,6 @@ body {
 	-webkit-flex-flow: row wrap;
 	-webkit-justify-content: space-between;
 	-webkit-align-content: space-between;
-	align-items: center;
-	justify-content: center;
 }
 
 .pull-left {
