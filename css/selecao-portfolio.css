@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'selecao-portfolio';
-  src: url('../font/selecao-portfolio.eot?68044486');
-  src: url('../font/selecao-portfolio.eot?68044486#iefix') format('embedded-opentype'),
-       url('../font/selecao-portfolio.woff?68044486') format('woff'),
-       url('../font/selecao-portfolio.ttf?68044486') format('truetype'),
-       url('../font/selecao-portfolio.svg?68044486#selecao-portfolio') format('svg');
+  src: url('../font/selecao-portfolio.eot?79340122');
+  src: url('../font/selecao-portfolio.eot?79340122#iefix') format('embedded-opentype'),
+       url('../font/selecao-portfolio.woff2?79340122') format('woff2'),
+       url('../font/selecao-portfolio.woff?79340122') format('woff'),
+       url('../font/selecao-portfolio.ttf?79340122') format('truetype'),
+       url('../font/selecao-portfolio.svg?79340122#selecao-portfolio') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'selecao-portfolio';
-    src: url('../font/selecao-portfolio.svg?68044486#selecao-portfolio') format('svg');
+    src: url('../font/selecao-portfolio.svg?79340122#selecao-portfolio') format('svg');
   }
 }
 */
@@ -69,3 +70,4 @@
 .icon-angle-right:before { content: '\e80c'; } /* '' */
 .icon-angle-left:before { content: '\e80d'; } /* '' */
 .icon-angle-down:before { content: '\e80e'; } /* '' */
+.icon-home:before { content: '\e80f'; } /* '' */

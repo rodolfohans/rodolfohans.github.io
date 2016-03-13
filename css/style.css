@@ -55,6 +55,8 @@ body {
 	-webkit-flex-flow: row wrap;
 	-webkit-justify-content: space-between;
 	-webkit-align-content: space-between;
+	align-items: center;
+	justify-content: center;
 }
 
 .pull-left {
@@ -610,6 +612,15 @@ input[type=range]::-moz-slider-thumb {
 	text-align: center;
 }
 
+#pag404 {
+	min-height: 100vh;
+}
+
+#pag404 .container-33 {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
 /* --- 08. Rodapé --- */
 footer {
 	padding: 0.5em 40px 1.5em;
@@ -658,6 +669,15 @@ footer {
 	}
 	.side-slide {
 		height: auto;
+	}
+	#pag404 .container-33 {
+		padding-top: 0;
+		padding-bottom: 40px;
+	}
+	#pag404 img {
+		padding: 7em 15% 0;
+		width: 70%;
+		height: 70%;
 	}
 }
 
